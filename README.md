@@ -35,7 +35,7 @@
   - OTP email verification during registration
 - **Login** using registered email and password
 - **Add Products**:
-  - Upload product images (image file automatically processed and displayed on shop page)
+  - Upload product info and images (image file automatically processed and displayed on shop page)
 - **Manage Products**:
   - View all products
   - Remove products
