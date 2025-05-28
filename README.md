@@ -1,12 +1,12 @@
 # National City Market (NCM)
 
-**National City Market (NCM)** is a web application built using **Spring MVC** architecture. It allows users to search for products and view shops near their location. The project includes admin/shopkeeper functionality for managing shop details and products.
+**National City Market (NCM)** is a web application built using **Spring MVC** architecture. When a user searches for a product, the application displays a list of shops that sell the product, sorted in ascending order of distance from the user's location — so the nearest shop appears first. The project includes admin/shopkeeper functionality for managing shop details and products.
 
 ## 🔧 Technologies Used
 
 - **Backend:** Java, Spring MVC
 - **Frontend:** JSP, HTML, CSS, JavaScript
-- **Database:** (Specify your DB here, e.g., MySQL or MongoDB)
+- **Database:** (MySQL)
 - **Build Tool:** Maven
 - **Server:** Apache Tomcat (10.x)
 
@@ -17,9 +17,9 @@
 ### 🔍 For Users
 
 - **Product Search**: Users can search for products.
-- **Nearby Shops**: View a list of shops sorted by the user's selected or current location.
+- **Nearby Shops**:the application displays a list of shops that sell the product, sorted in ascending order of distance from the user's location — so the nearest shop appears first.
 - **Shop Page**: Click on a shop to view:
-  - Product list with:
+  - Products with:
     - Name
     - Image
     - Price
@@ -35,11 +35,11 @@
   - OTP email verification during registration
 - **Login** using registered email and password
 - **Add Products**:
-  - Upload product images (image file automatically processed and displayed)
+  - Upload product images (image file automatically processed and displayed on shop page)
 - **Manage Products**:
   - View all products
   - Remove products
-- **Provide Shop Location** (for display to users)
+- **Provide Shop Location** 
 - **Logout**
 
 ---
